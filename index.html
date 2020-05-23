@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<link type="text/javascript" href="src/todo.js">
+	<title></title>
+</head>
+<body>
+
+	<div class="container">
+		<div class="controls">
+			<h1>TODO - Web</h1>
+			<p>Enter your today Task.</p>
+			<input type="text" id="input"><br>
+			<button type="button" id="add">Add Todo</button>
+			<button style="background-color:#ff6347 "type="button" id="remove" onclick="deleteition(0)">Remove Todo</button>
+		</div>
+
+		<ul id="list">
+			<li class="mycheck"><input type="checkbox" 
+				id="check"><label>Go to Gym</label></li>
+			<li class="mycheck"><input type="checkbox" 
+				id="check"><label>Record</label>
+			</li>
+		</ul>
+
+	</div>
+
+	<script src="src/todo.js" defer></script>
+
+</body>
+</html>
